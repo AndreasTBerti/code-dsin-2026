@@ -1,0 +1,45 @@
+# =========================
+# Backend (Python / FastAPI)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# =========================
+# Banco de Dados
+# =========================
+# Ignora os arquivos de banco de dados locais gerados pelo seed_db.py
+*.db
+*.sqlite
+*.sqlite3
+app/database/*.db
+
+# =========================
+# Frontend (Node / React / Vite)
+# =========================
+node_modules/
+dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Vite environment files
+.env.local
+.env.*.local
+
+# =========================
+# Sistema Operacional e IDEs
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
